@@ -1,0 +1,18 @@
+.button-wrapper{
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: end;
+  padding: 1rem;
+}
+
+.numbers {
+  cursor: pointer;
+  background-color: #2A292A;/* 272424 */
+}
+
+.highligh {
+  background-color: #D27841;
+}

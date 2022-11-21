@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.App {
+  min-width: 15rem;
+  max-width: 24rem;
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+.App > section {
+  width: 100%;
+  background-color: #272424;
+  display: grid;
+}
+.App > section > div {
+  height: 14vh;
+  display: grid;
+  grid-template-areas: 
+  "AC AC PTG DIV";
+}
+.App > section > div:not(div:first-child){
+  display: flex;
+}
+
+div:first-child{
+}
+
+.AC{
+  grid-column: 1/4;
+}
+.PTG{
+  grid-column: 3/4;
+}
+.DIV{
+  grid-column: 4/5;
+}
